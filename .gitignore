@@ -1,0 +1,33 @@
+# Visual Studio / Rider / IDE cache
+.vs/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Intermediate build files & compiler artifacts
+**/Intermediate/
+**/DerivedDataCache/
+**/Saved/
+*.obj
+*.o
+*.pch
+*.gch
+
+# Debug symbols & patches (keep repo lean)
+*.pdb
+*.patch_*
+
+# Ignore backup/crash files
+*.log
+*.dmp
+*.crashinfo
+
+# Ensure plugin runtime modules and editor binaries are tracked for Blueprint users
+!**/Binaries/
+!**/Binaries/Win64/
+!**/Binaries/Win64/*.dll
+!**/Binaries/Win64/*.modules
